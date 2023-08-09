@@ -1,0 +1,12 @@
+deployar:
+npm run build
+
+npm install -g serve
+
+serve -s build
+
+paginas para deployar: vercel, netlify o githubpages
+
+crear repositorio en github y agregar la linea de
+git remote add origin https://github.com/cuevasgaston/organization.git
+en la terminal del proyecto.

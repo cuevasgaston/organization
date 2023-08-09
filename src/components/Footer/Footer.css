@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.redes img {
+    width: 30px; /* Ajusta el tamaño según tus preferencias */
+    margin: 0 10px; /* Agrega margen entre las imágenes */
+}
+
+/* Opcional: Si deseas centrar las imágenes verticalmente en su contenedor */
+.redes {
+    display: flex;
+    align-items: center;
+}
